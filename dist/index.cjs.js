@@ -3394,7 +3394,7 @@ var MenuEntry = styled__default['default'].div(templateObject_3$2 || (templateOb
     return theme.colors.textSubtle;
 }, function (_a) {
     var isActive = _a.isActive; _a.theme;
-    return (isActive ? "inset 4px 0px 0px #fcf71c" : "none");
+    return (isActive ? "inset 4px 0px 0px #822FD3" : "none");
 }, function (_a) {
     var theme = _a.theme;
     return theme.colors.textSubtle;
