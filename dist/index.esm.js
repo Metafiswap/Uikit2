@@ -3326,7 +3326,7 @@ var links = [
         items: [
             {
                 label: "Github",
-                href: "https://github.com/AnubiSwap/",
+                href: "https://github.com/Metafiswap",
             },
             {
                 label: "Blog",
@@ -3346,14 +3346,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/anubiswap"
+                href: "http://t.me/MetafiSwapFTM"
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/AnubiswapBSC",
+        href: "https://twitter.com/MetafiSwap",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3513,12 +3513,16 @@ var PanelFooter = function (_a) {
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
                 React.createElement(Icon$1c, null))));
     }
+    /* <div>
+          <a href="https://jagosafer.io/anubiswap">
+          <img src="https://jagosafer.io/flags/greenflag.svg" style={{height: "60px",width:"230px"}} width={230} height={60} />
+          </a>
+          <a href="https://rugdoc.io/project/anubiswap/">
+          <img src="https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" style={{height: "60px", marginLeft: "25px", marginTop: "5px",marginBottom: "10px" }}  height={60} />
+          </a>
+          </div>
+          */
     return (React.createElement(Container, null,
-        React.createElement("div", null,
-            React.createElement("a", { href: "https://jagosafer.io/anubiswap" },
-                React.createElement("img", { src: "https://jagosafer.io/flags/greenflag.svg", style: { height: "60px", width: "230px" }, width: 230, height: 60 })),
-            React.createElement("a", { href: "https://rugdoc.io/project/anubiswap/" },
-                React.createElement("img", { src: "https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png", style: { height: "60px", marginLeft: "25px", marginTop: "5px", marginBottom: "10px" }, height: 60 }))),
         React.createElement(SocialEntry, null,
             React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
             React.createElement(SocialLinks$1, null))));

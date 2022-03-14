@@ -53,10 +53,7 @@ const PanelFooter: React.FC<Props> = ({
       </Container>
     );
   }
-
-  return (
-    <Container>
-      <div>
+/* <div>
       <a href="https://jagosafer.io/anubiswap">
       <img src="https://jagosafer.io/flags/greenflag.svg" style={{height: "60px",width:"230px"}} width={230} height={60} />
       </a>
@@ -64,6 +61,10 @@ const PanelFooter: React.FC<Props> = ({
       <img src="https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" style={{height: "60px", marginLeft: "25px", marginTop: "5px",marginBottom: "10px" }}  height={60} />
       </a>
       </div>
+      */
+  return (
+    <Container>
+      
       <SocialEntry>
         <CakePrice cakePriceUsd={cakePriceUsd} />
         <SocialLinks />

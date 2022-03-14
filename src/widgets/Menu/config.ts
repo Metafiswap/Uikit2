@@ -126,7 +126,7 @@ export const links = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/AnubiSwap/",
+        href: "https://github.com/Metafiswap",
       },
       {
         label: "Blog",
@@ -147,14 +147,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/anubiswap"
+        href: "http://t.me/MetafiSwapFTM"
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/AnubiswapBSC",
+    href: "https://twitter.com/MetafiSwap",
   },
 ];
 
