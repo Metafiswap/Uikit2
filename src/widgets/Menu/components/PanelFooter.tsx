@@ -64,7 +64,9 @@ const PanelFooter: React.FC<Props> = ({
       */
   return (
     <Container>
-      
+       <a href="https://ftm.farmscan.io/address/0x15017e33efed7a01901017af7866eb942d6831a6">
+      <img src="https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg" style={{height: "60px",width:"230px"}} width={230} height={60} />
+      </a>
       <SocialEntry>
         <CakePrice cakePriceUsd={cakePriceUsd} />
         <SocialLinks />

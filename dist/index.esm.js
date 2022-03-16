@@ -3523,6 +3523,8 @@ var PanelFooter = function (_a) {
           </div>
           */
     return (React.createElement(Container, null,
+        React.createElement("a", { href: "https://ftm.farmscan.io/address/0x15017e33efed7a01901017af7866eb942d6831a6" },
+            React.createElement("img", { src: "https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg", style: { height: "60px", width: "230px" }, width: 230, height: 60 })),
         React.createElement(SocialEntry, null,
             React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
             React.createElement(SocialLinks$1, null))));

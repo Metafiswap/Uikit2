@@ -3537,6 +3537,8 @@ var PanelFooter = function (_a) {
           </div>
           */
     return (React__default['default'].createElement(Container, null,
+        React__default['default'].createElement("a", { href: "https://ftm.farmscan.io/address/0x15017e33efed7a01901017af7866eb942d6831a6" },
+            React__default['default'].createElement("img", { src: "https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg", style: { height: "60px", width: "230px" }, width: 230, height: 60 })),
         React__default['default'].createElement(SocialEntry, null,
             React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
             React__default['default'].createElement(SocialLinks$1, null))));
